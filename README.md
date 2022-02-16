@@ -6,3 +6,6 @@ This follows the material from [*Grokking the Coding Interview*](https://www.edu
 1. set your virtual enviornement with `python venv .venv`
 2. activcate your `.venv` with `.venv source/bin/activate`
 3. install the requirements with `pip install requirements.txt`
+
+## Convert .ipynb to .html to store in Anki
+Use [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
