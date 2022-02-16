@@ -37,10 +37,10 @@ def main():
     result = smallest_subbarray_with_greater_sum(s, [3, 4, 1, 1, 6])
     print(f"The smallest continguous subarray with a sum greater than or equal to '{s}'': " + str(result))
 
-    # Time Complesity of the above Algorithim will be O(N). The outer for loop runs for all elements
+    # Time Complexity of the above Algorithim will be O(N). The outer for loop runs for all elements
     # and the inner while loop processes each element only once; therefore, the time complexity of the algorithm will be
     # O(N + N), which is asymptotically equivalent to O(N).
-    
+
     # Space Complexity runs in constant space O(1)
 
 main()
