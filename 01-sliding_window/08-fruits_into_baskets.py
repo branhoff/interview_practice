@@ -46,6 +46,12 @@ def main():
     result = fruits_into_baskets(['A', 'B', 'C', 'B', 'B', 'C'])
     print(f"Maximum number of only two fruits: " + str(result))
 
+    # Time Complexity will be O(N) The outer for loop runs for all characters, 
+    # and the inner while loop processes each character only once; therefore, 
+    # the time complexity of the algorithm will be O(N+N), which is asymptotically equivalent to O(N).
+
+    # Space Complexity will be O(1) as tehre can be a maximum of three types of fruits stored in the frequency map
+
 
 if __name__ == "__main__":
     main()
