@@ -24,7 +24,7 @@ def main():
     result = max_sub_array_of_size_k(k, [2, 3, 4, 1, 5])
     print(f"Max of subarray of size {k}: " + str(result))
 
-    # Time Complesity of the above Algorithim will be O(N)
+    # Time Complexity of the above Algorithim will be O(N)
     # Space Complexity runs in constant space O(1)
 
 
