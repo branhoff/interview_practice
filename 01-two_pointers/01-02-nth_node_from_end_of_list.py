@@ -49,6 +49,23 @@ def print_list_with_forward_arrow(linked_list_node):
             print("→ null", end=" ")
 
 
+def remove_nth_last_node(head, n):
+    right = head
+    left = head
+
+    for _ in range(n):
+        right = right.next
+
+    if not right:
+        return head.next
+
+    while right.next:
+        right = right.next
+        left = left.next
+
+    left.next = left.next.next
+
+    return head
 
 def main():
     lists = [[23, 89, 10, 5, 67, 39, 70, 28], [34, 53, 6, 95, 38, 28, 17, 63, 16, 76], [288, 224, 275, 390, 4, 383, 330, 60, 193],
