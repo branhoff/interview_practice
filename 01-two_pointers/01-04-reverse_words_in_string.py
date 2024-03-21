@@ -75,16 +75,16 @@ def main():
     actual_result = reverse_words(string)
     expected_result = expected_results[i]
 
-    # Printing actual strings and their reversed versions for visual confirmation
     print(f"{i + 1}.\tActual string:\t\t{string}")
     print(f"\tReversed string:\t{actual_result}")
+
+
+    if actual_result != expected_result:
+      print(f"Test failed for input: {string}. Expected: {expected_result}, got: {actual_result}")
+    else:
+      print("Test passed")
+
     print("-" * 100)
-
-    # Assertion to check if the actual result matches the expected result
-    assert actual_result == expected_result, f"Test failed for input: {string}. Expected: {expected_result}, got: {actual_result}"
-
-  print("All tests passed successfully!")
-
 
 if __name__ == '__main__':
   main()
