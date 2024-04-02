@@ -66,7 +66,7 @@ def main():
 
     # Assertion to check if the actual result matches the expected result
     if actual_result != expected_result:
-      f"Test failed for input: {n}. Expected: {expected_result}, got: {actual_result}"
+      print(f"Test failed for input: {n}. Expected: {expected_result}, got: {actual_result}")
     else:
       print("Test passed")
     print("-" * 100)
