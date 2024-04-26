@@ -38,7 +38,6 @@ final profit while mitigating the risk.
 """
 from heapq import heappush
 
-
 def maximum_capital(c, k, capitals, profits):
   capitals_min_heap = []
 
